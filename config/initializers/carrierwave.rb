@@ -18,8 +18,10 @@ CarrierWave.configure do |config|
       region:                   ENV['S3_BUCKET_REGION']
     }
     config.fog_directory    = ENV['S3_BUCKET']
-    config.asset_host       = Rails.application.config.action_controller.asset_host
-    
+
+    # Put your CDN host below instead
+    config.asset_host       = ENV['S3_BUCKET_REGION'].present? ? "s3-#{ENV['S3_BUCKET_REGION']}.amazonaws.com" : 's3.amazonaws.com'
+
   else
     # settings for the local filesystem
     config.storage = :file
