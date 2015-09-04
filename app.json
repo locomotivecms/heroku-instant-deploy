@@ -1,0 +1,46 @@
+{
+  "name": "LocomotiveCMS on Heroku",
+  "description": "LocomotiveCMS is designed to save your time and help you focus on what matters: front-end technology, standard development process and no learning time for your client.",
+  "logo": "https://avatars0.githubusercontent.com/u/340986",
+  "repository": "https://github.com/locomotivecms/engine",
+  "success_url": "/",
+  "addons": [
+    "mongolab",
+    "sendgrid"
+  ],
+  "env": {
+    "BUNDLE_WITHOUT": {
+      "value": "development:test"
+    },
+    {
+    "HEROKU_API_KEY": {
+      "description": "The API key of your user. You can find it here: https://devcenter.heroku.com/articles/authentication.",
+      "required": true
+    },
+    {
+    "HEROKU_APP_NAME": {
+      "description": "The name of the Heroku App.",
+      "required": true
+    },
+    "S3_ACCESS_KEY_ID": {
+      "description": "Set your AWS Access Key ID to enable S3 file storage. Leave blank to disable file uploads.",
+      "required": true
+    },
+    "S3_ACCESS_SECRET_KEY": {
+      "description": "AWS Access Secret Key, if using S3 file storage.",
+      "required": true
+    },
+    "S3_BUCKET_NAME": {
+      "description": "Name of your S3 bucket on AWS, if using S3 file storage.",
+      "required": true
+    },
+    "S3_BUCKET_REGION": {
+      "description": "Region of your S3 bucket on AWS, if using S3 file storage.",
+      "required": true
+    },
+    "S3_ASSET_HOST_URL": {
+      "description": "Optional custom CDN asset host url",
+      "required": false
+    }
+  }
+}
