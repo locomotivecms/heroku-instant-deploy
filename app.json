@@ -11,34 +11,35 @@
   ],
   "env": {
     "BUNDLE_WITHOUT": {
+      "description": "Don't change this value.",
       "value": "development:test"
     },
-    "HEROKU_API_KEY": {
-      "description": "The API key of your user. You can find it here: https://devcenter.heroku.com/articles/authentication.",
+    "HEROKU_APP_NAME": {
+      "description": "The name you filled in for App Name at the top of this form.",
       "required": true
     },
-    "HEROKU_APP_NAME": {
-      "description": "The name of the Heroku App.",
+    "HEROKU_API_KEY": {
+      "description": "The API key of your user.",
       "required": true
     },
     "S3_ACCESS_KEY_ID": {
-      "description": "Set your AWS Access Key ID to enable S3 file storage. Leave blank to disable file uploads.",
+      "description": "Set your AWS Access Key ID to enable S3 file storage.",
       "required": true
     },
     "S3_ACCESS_SECRET_KEY": {
-      "description": "AWS Access Secret Key, if using S3 file storage.",
+      "description": "AWS Access Secret Key.",
       "required": true
     },
     "S3_BUCKET_NAME": {
-      "description": "Name of your S3 bucket on AWS, if using S3 file storage.",
+      "description": "Name of your S3 bucket on AWS.",
       "required": true
     },
     "S3_BUCKET_REGION": {
-      "description": "Region of your S3 bucket on AWS, if using S3 file storage.",
+      "description": "Region of your S3 bucket on AWS.",
       "required": true
     },
     "S3_ASSET_HOST_URL": {
-      "description": "Optional custom CDN asset host url",
+      "description": "Optional custom CDN asset host url.",
       "required": false
     }
   }
