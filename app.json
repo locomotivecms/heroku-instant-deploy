@@ -4,6 +4,7 @@
   "logo": "https://avatars0.githubusercontent.com/u/340986",
   "repository": "https://github.com/locomotivecms/engine",
   "success_url": "/",
+  "keywords": ["locomotivecms", "rails", "ruby"],
   "addons": [
     "mongolab",
     "sendgrid"
@@ -12,12 +13,10 @@
     "BUNDLE_WITHOUT": {
       "value": "development:test"
     },
-    {
     "HEROKU_API_KEY": {
       "description": "The API key of your user. You can find it here: https://devcenter.heroku.com/articles/authentication.",
       "required": true
     },
-    {
     "HEROKU_APP_NAME": {
       "description": "The name of the Heroku App.",
       "required": true
