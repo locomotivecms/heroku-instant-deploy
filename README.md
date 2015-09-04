@@ -33,7 +33,7 @@ Follow the steps and you will be up and running in no time!
 
 ## Problems?
 
-If you have problems using your instance of Ghost, you should check the [official documentation](http://doc.locomotivecms.com/) or open an issue on [the official issue tracker](https://github.com/locomotivecms/engine/issues). If you discover an issue with the deployment process provided by *this repository*, then [open an issue here](https://github.com/locomotivecms/heroku-instant-deploy).
+If you have problems, check the [official documentation](http://doc.locomotivecms.com/) or open an [issue](https://github.com/locomotivecms/engine/issues). If there is an issue in the process of deploying to heroku, then [open an issue here](https://github.com/locomotivecms/heroku-instant-deploy).
 
 ## License
 
