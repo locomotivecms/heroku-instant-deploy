@@ -1,6 +1,6 @@
 {
   "name": "LocomotiveCMS on Heroku",
-  "description": "LocomotiveCMS is designed to save your time and help you focus on what matters: front-end technology, standard development process and no learning time for your client.",
+  "description": "LocomotiveCMS is the most innovative Ruby on Rails CMS. It is used by thousand of developers in the world.",
   "logo": "https://avatars0.githubusercontent.com/u/340986",
   "repository": "https://github.com/locomotivecms/engine",
   "success_url": "/",
