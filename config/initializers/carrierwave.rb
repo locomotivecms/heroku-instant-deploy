@@ -17,10 +17,16 @@ CarrierWave.configure do |config|
       aws_secret_access_key:    ENV['S3_SECRET_KEY'],
       region:                   ENV['S3_BUCKET_REGION']
     }
-    config.fog_directory    = ENV['S3_BUCKET']
+    config.fog_directory    = ENV['S3_BUCKET_NAME']
 
     # Put your CDN host below instead
-    config.asset_host       = ENV['S3_BUCKET_REGION'].present? ? "s3-#{ENV['S3_BUCKET_REGION']}.amazonaws.com" : 's3.amazonaws.com'
+    if ENV['S3_ASSET_HOST_URL'].present?
+      config.asset_host = ENV['S3_ASSET_HOST_URL']
+    elsif ENV['S3_BUCKET_REGION'].present?
+      config.asset_host = "s3-#{ENV['S3_BUCKET_REGION']}.amazonaws.com"
+    else
+      config.asset_host = 's3.amazonaws.com'
+    end
 
   else
     # settings for the local filesystem

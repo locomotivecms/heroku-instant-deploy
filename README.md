@@ -22,7 +22,7 @@ Follow the steps and you will be up and running in no time!
 
 - **S3_BUCKET_REGION (required)**. Pick the region you selected when setting up AmazonS3 <https://locomotive-v3.readme.io/docs/heroku#set-up-amazon-s3>.
 
-- **S3_BUCKET_REGION (optional)**. Optional custom CDN asset host url.
+- **S3_ASSET_HOST_URL (optional)**. Optional custom CDN asset host url.
 
 ### After deployment
 
