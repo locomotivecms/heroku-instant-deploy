@@ -1,67 +1,66 @@
 GIT
   remote: git://github.com/locomotivecms/engine.git
-  revision: a162f1fe5229463e4492b3ba7707f296e81ec359
-  branch: master
+  revision: 3279e913dd29d5adc92d731e55fc794620add111
+  ref: 3279e91
   specs:
-    locomotivecms (3.0.0.pre.alpha.3)
+    locomotivecms (3.0.0.rc1)
       actionmailer-with-request (~> 0.4.0)
-      autoprefixer-rails (~> 5.2.0)
+      autoprefixer-rails (~> 6.0.3)
       backbone-on-rails (~> 1.2.0.0)
       bazaar (~> 0.0.2)
       bootstrap-kaminari-views (~> 0.0.5)
       bootstrap-sass (~> 3.3.3)
-      carrierwave-mongoid (~> 0.7)
-      codemirror-rails (~> 5.0)
+      carrierwave-mongoid (~> 0.7.1)
+      codemirror-rails (~> 5.6)
       compass-rails (= 2.0.4)
-      custom_fields (~> 2.4.0.rc3)
+      custom_fields (~> 2.4.0.rc5)
       devise (~> 3.5.1)
       devise-encryptable (~> 0.2.0)
       dragonfly (~> 1.0.7)
       flash_cookie_session (~> 1.1.1)
-      fog (~> 1.32.0)
-      font-awesome-sass (~> 4.3.2.1)
+      font-awesome-sass (~> 4.4.0)
       grape (~> 0.12.0)
       grape-entity (= 0.4.5)
       highline (~> 1.7.1)
       jquery-rails (~> 4.0.3)
       jquery-ui-rails (~> 5.0.3)
       kaminari (~> 0.16.3)
-      locomotivecms_steam (~> 1.0.0.pre.beta.2)
+      locomotivecms_steam (~> 1.0.0.rc1)
       mime-types (~> 2.5)
       mimetype-fu (~> 0.1.2)
       mongo_session_store-rails4 (~> 6.0.0)
       mongoid (~> 4.0.2)
-      mongoid-tree (~> 2.0.0)
+      mongoid-tree (~> 2.0.1)
       multi_json (~> 1.11.0)
       net-ssh (~> 2.10.1.rc1)
       nprogress-rails (~> 0.1.6.7)
       pundit (~> 1.0.0)
       rack-cache (~> 1.1)
-      rails (~> 4.2.1)
+      rails (~> 4.2.4)
       rake (~> 10.4.2)
       responders (~> 2.1.0)
       select2-rails (~> 3.5.9)
-      simple_form (~> 3.1.0)
+      simple_form (~> 3.2.0)
       simple_token_authentication (~> 1.10.0)
       slim (~> 3.0.6)
       stringex (~> 2.5.2)
 
 GIT
   remote: git://github.com/locomotivecms/steam.git
-  revision: 258ec9d2af9eb84ad27df93d270e933b775d5be4
+  revision: 23bb3b20376155bf932677113aa76f1e0719faca
   branch: master
   specs:
-    locomotivecms_steam (1.0.0.pre.beta.2)
+    locomotivecms_steam (1.0.0.rc1)
       RedCloth (~> 4.2.9)
       chronic (~> 0.10.2)
       coffee-script (~> 2.4.1)
       compass (~> 1.0.3)
-      dragonfly (~> 1.0.10)
+      dragonfly (~> 1.0.12)
       haml (~> 4.0.6)
-      httparty (~> 0.13.5)
+      httparty (~> 0.13.6)
       kramdown (~> 1.8.0)
       locomotivecms-solid (~> 4.0.0.alpha2)
-      locomotivecms_common (~> 0.0.4)
+      locomotivecms_common (~> 0.0.5)
       mime-types (~> 2.6.1)
       mimetype-fu (~> 0.1.2)
       moneta (~> 0.8.0)
@@ -77,7 +76,6 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    CFPropertyList (2.3.1)
     RedCloth (4.2.9)
     actionmailer (4.2.4)
       actionpack (= 4.2.4)
@@ -118,9 +116,16 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.8)
     arel (6.0.3)
-    autoprefixer-rails (5.2.1.3)
+    attr_extras (4.4.0)
+    autoprefixer-rails (6.0.3)
       execjs
       json
+    aws-sdk (2.1.30)
+      aws-sdk-resources (= 2.1.30)
+    aws-sdk-core (2.1.30)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.1.30)
+      aws-sdk-core (= 2.1.30)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
@@ -140,7 +145,7 @@ GEM
     bootstrap-sass (3.3.5.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.3.0)
-    bson (3.2.1)
+    bson (3.2.6)
     builder (3.2.2)
     byebug (6.0.2)
     carrierwave (0.10.0)
@@ -148,6 +153,9 @@ GEM
       activesupport (>= 3.2.0)
       json (>= 1.7)
       mime-types (>= 1.16)
+    carrierwave-aws (1.0.0)
+      aws-sdk (~> 2.0)
+      carrierwave (~> 0.7)
     carrierwave-mongoid (0.7.1)
       carrierwave (>= 0.8.0, < 0.11.0)
       mongoid (>= 3.0, < 5.0)
@@ -185,7 +193,7 @@ GEM
       sprockets (< 2.13)
     connection_pool (2.2.0)
     crass (1.0.2)
-    custom_fields (2.4.0.rc3)
+    custom_fields (2.4.0.rc5)
       activesupport (~> 4.2.1)
       carrierwave-mongoid (~> 0.7.1)
       monetize (~> 1.1.0)
@@ -202,7 +210,7 @@ GEM
       warden (~> 1.2.3)
     devise-encryptable (0.2.0)
       devise (>= 2.1.0)
-    dragonfly (1.0.10)
+    dragonfly (1.0.12)
       addressable (~> 2.3)
       multi_json (~> 1.0)
       rack (>= 1.3.0)
@@ -217,107 +225,10 @@ GEM
     excon (0.45.4)
     execjs (2.6.0)
     ffi (1.9.10)
-    fission (0.5.0)
-      CFPropertyList (~> 2.2)
     flash_cookie_session (1.1.6)
       rails (>= 3.0)
-    fog (1.32.0)
-      fog-atmos
-      fog-aws (>= 0.6.0)
-      fog-brightbox (~> 0.4)
-      fog-core (~> 1.32)
-      fog-ecloud (= 0.1.1)
-      fog-google (>= 0.0.2)
-      fog-json
-      fog-local
-      fog-powerdns (>= 0.1.1)
-      fog-profitbricks
-      fog-radosgw (>= 0.0.2)
-      fog-riakcs
-      fog-sakuracloud (>= 0.0.4)
-      fog-serverlove
-      fog-softlayer
-      fog-storm_on_demand
-      fog-terremark
-      fog-vmfusion
-      fog-voxel
-      fog-xml (~> 0.1.1)
-      ipaddress (~> 0.5)
-      nokogiri (~> 1.5, >= 1.5.11)
-    fog-atmos (0.1.0)
-      fog-core
-      fog-xml
-    fog-aws (0.7.6)
-      fog-core (~> 1.27)
-      fog-json (~> 1.0)
-      fog-xml (~> 0.1)
-      ipaddress (~> 0.8)
-    fog-brightbox (0.9.0)
-      fog-core (~> 1.22)
-      fog-json
-      inflecto (~> 0.0.2)
-    fog-core (1.32.1)
-      builder
-      excon (~> 0.45)
-      formatador (~> 0.2)
-      mime-types
-      net-scp (~> 1.1)
-      net-ssh (>= 2.1.3)
-    fog-ecloud (0.1.1)
-      fog-core
-      fog-xml
-    fog-google (0.0.7)
-      fog-core
-      fog-json
-      fog-xml
-    fog-json (1.0.2)
-      fog-core (~> 1.0)
-      multi_json (~> 1.10)
-    fog-local (0.2.1)
-      fog-core (~> 1.27)
-    fog-powerdns (0.1.1)
-      fog-core (~> 1.27)
-      fog-json (~> 1.0)
-      fog-xml (~> 0.1)
-    fog-profitbricks (0.0.5)
-      fog-core
-      fog-xml
-      nokogiri
-    fog-radosgw (0.0.4)
-      fog-core (>= 1.21.0)
-      fog-json
-      fog-xml (>= 0.0.1)
-    fog-riakcs (0.1.0)
-      fog-core
-      fog-json
-      fog-xml
-    fog-sakuracloud (1.0.1)
-      fog-core
-      fog-json
-    fog-serverlove (0.1.2)
-      fog-core
-      fog-json
-    fog-softlayer (0.4.7)
-      fog-core
-      fog-json
-    fog-storm_on_demand (0.1.1)
-      fog-core
-      fog-json
-    fog-terremark (0.1.0)
-      fog-core
-      fog-xml
-    fog-vmfusion (0.1.0)
-      fission
-      fog-core
-    fog-voxel (0.1.0)
-      fog-core
-      fog-xml
-    fog-xml (0.1.2)
-      fog-core
-      nokogiri (~> 1.5, >= 1.5.11)
-    font-awesome-sass (4.3.2.1)
-      sass (~> 3.2)
-    formatador (0.2.5)
+    font-awesome-sass (4.4.0)
+      sass (>= 3.2)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     grape (0.12.0)
@@ -342,18 +253,17 @@ GEM
       moneta
       multi_json (>= 1.9.2)
       netrc
-    highline (1.7.3)
+    highline (1.7.8)
     hike (1.2.3)
-    httparty (0.13.5)
+    httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
     ice_nine (0.11.1)
-    inflecto (0.0.2)
-    ipaddress (0.8.0)
     jbuilder (2.3.1)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
+    jmespath (1.1.3)
     jquery-rails (4.0.4)
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0)
@@ -370,8 +280,9 @@ GEM
     locomotivecms-liquid (4.0.0.alpha2)
     locomotivecms-solid (4.0.0.alpha2)
       locomotivecms-liquid (~> 4.0.0.alpha2)
-    locomotivecms_common (0.0.4)
+    locomotivecms_common (0.0.5)
       activesupport (~> 4.2.1)
+      attr_extras (~> 4.4.0)
       colorize
       stringex (~> 2.5.2)
     loofah (2.0.3)
@@ -394,11 +305,11 @@ GEM
       moped (~> 2.0.0)
       origin (~> 2.1)
       tzinfo (>= 0.3.37)
-    mongoid-grid_fs (2.1.0)
+    mongoid-grid_fs (2.2.1)
       mime-types (>= 1.0, < 3.0)
-      mongoid (>= 3.0, < 5.0)
-    mongoid-tree (2.0.0)
-      mongoid (>= 4.0, <= 5.0)
+      mongoid (>= 3.0, < 6.0)
+    mongoid-tree (2.0.1)
+      mongoid (>= 4.0, < 6.0)
     moped (2.0.7)
       bson (~> 3.0)
       connection_pool (~> 2.0)
@@ -406,9 +317,7 @@ GEM
     morphine (0.1.1)
     multi_json (1.11.2)
     multi_xml (0.5.5)
-    net-scp (1.2.1)
-      net-ssh (>= 2.6.5)
-    net-ssh (2.10.1.rc1)
+    net-ssh (2.10.1.rc2)
     netrc (0.10.3)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
@@ -426,7 +335,7 @@ GEM
     rack (1.6.4)
     rack-accept (0.4.5)
       rack (>= 0.4)
-    rack-cache (1.2)
+    rack-cache (1.5.0)
       rack (>= 0.4)
     rack-mount (0.8.3)
       rack (>= 1.0.0)
@@ -465,7 +374,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
-    rb-fsevent (0.9.5)
+    rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     rdoc (4.2.0)
@@ -487,7 +396,7 @@ GEM
       rdoc (~> 4.0)
     select2-rails (3.5.9.3)
       thor (~> 0.14)
-    simple_form (3.1.0)
+    simple_form (3.2.0)
       actionpack (~> 4.0)
       activemodel (~> 4.0)
     simple_token_authentication (1.10.0)
@@ -543,6 +452,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  carrierwave-aws
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails

@@ -4,7 +4,6 @@ if ENV['HEROKU_APP_NAME']
   ruby '2.2.2'
 end
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use SCSS for stylesheets
@@ -30,14 +29,23 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Unicorn as the app server
 # gem 'unicorn'
+
 # Use Puma as the app server
 gem 'puma'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+# Upload files to AWS S3
+gem 'carrierwave-aws'
 
-gem 'locomotivecms', :github => 'locomotivecms/engine', :branch => 'master'
-gem 'locomotivecms_steam', :github => 'locomotivecms/steam', :branch => 'master'
+# DEV
+gem 'locomotivecms',        github: 'locomotivecms/engine', ref: '3279e91'
+gem 'locomotivecms_steam',  github: 'locomotivecms/steam', branch: 'master'
+
+# GITHUB
+# gem 'locomotivecms', github: 'locomotivecms/engine', branch: 'master'
+# gem 'locomotivecms_steam', github: 'locomotivecms/steam', branch: 'master'
+
+# STABLE
+# gem 'locomotivecms', '~> 3.0.0.rc1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -53,7 +61,7 @@ group :development do
 end
 
 group :production do
-  gem 'rails_12factor' 
+  gem 'rails_12factor'
 end
 
 gem 'platform-api', '~> 0.3.0'
