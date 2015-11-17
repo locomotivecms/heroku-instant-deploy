@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'LocomotiveFontAwesome';
+  src: url("/assets/font-awesome/fontawesome-webfont-cb3cca1805f5bb0e1e6bea151e1e240f.eot?v=4_4_0");
+  src: url("/assets/font-awesome/fontawesome-webfont-cb3cca1805f5bb0e1e6bea151e1e240f.eot?#iefix&v=4_4_0") format("embedded-opentype"), url("/assets/font-awesome/fontawesome-webfont-6ef6b7c0a38ffe5848c5f6830cf60707.woff2?v=4_4_0") format("woff2"), url("/assets/font-awesome/fontawesome-webfont-e57bbccfe2d8a4e7c081ad28507a67a2.woff?v=4_4_0") format("woff"), url("/assets/font-awesome/fontawesome-webfont-2dc53971861c9a8401e837d1856ff91e.ttf?v=4_4_0") format("truetype"), url("/assets/font-awesome/fontawesome-webfont-c28105ba5141624b807cdc9617433edd.svg?v=4_4_0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 24, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-43a88c2a4787/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+#locomotive-highlighter-bar, #locomotive-highlighter-actions {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10000;
+}
+
+/* line 32, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-43a88c2a4787/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+#locomotive-highlighter-bar {
+  background-color: yellow;
+  width: 5px;
+  min-height: 10px;
+}
+
+/* line 40, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-43a88c2a4787/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+#locomotive-highlighter-actions > a {
+  background: #54b9cd;
+  background-image: none;
+  border: none;
+  border-bottom: 2px solid #36a3b8;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  height: 30px;
+  line-height: 18px;
+  margin: 0 10px 0 0px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+/* line 62, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-43a88c2a4787/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+#locomotive-highlighter-actions > a:hover {
+  background-color: #36a3b8;
+  border-color: #287989;
+}
+/* line 67, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-43a88c2a4787/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+#locomotive-highlighter-actions > a i.locomotive-fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 LocomotiveFontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 5px;
+}
+/* line 77, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-43a88c2a4787/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+#locomotive-highlighter-actions > a i.locomotive-fa.locomotive-fa-pencil:before {
+  content: "\f040";
+}
