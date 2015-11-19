@@ -30,7 +30,7 @@
       "description": "AWS Access Secret Key.",
       "required": true
     },
-    "S3_BUCKET_NAME": {
+    "S3_BUCKET": {
       "description": "Name of your S3 bucket on AWS.",
       "required": true
     },

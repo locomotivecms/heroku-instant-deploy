@@ -1,10 +1,10 @@
-# [LocomotiveCMS](https://github.com/locomotivecms/engine) on [Heroku](http://heroku.com)
+# [Locomotive](https://github.com/locomotivecms/engine) on [Heroku](http://heroku.com)
 
-LocomotiveCMS is designed to save your time and help you focus on what matters: front-end technology, standard development process and no learning time for your client. Visit the project's website at <http://locomotivecms.com/>, or read the docs on <http://doc.locomotivecms.com/>.
+LocomotiveCMS is designed to save your time and help you focus on what matters: front-end technology, standard development process and no learning time for your client. Visit the project's website at <http://locomotive.works/>, or read the docs on <https://locomotive-v3.readme.io/>.
 
 ## Deploying on Heroku
 
-To get your own LocomotiveCMS running on Heroku, click the button below:
+To get your own Locomotive running on Heroku, click the button below:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/locomotivecms/heroku-instant-deploy)
 
@@ -18,7 +18,7 @@ Follow the steps and you will be up and running in no time!
 
 - **HEROKU_API_KEY (required)** and **S3_ACCESS_SECRET_KEY (required):** These fields is how your site will authenticate with Amazon S3. To do this, follow this guide <http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html>. You also need to make sure that this key pair has sufficient access to your S3 bucket. Follow this guide to make sure this is done: <http://docs.aws.amazon.com/AmazonS3/latest/dev/s3-access-control.html>
 
-- **S3_BUCKET_NAME (required)**. The name you used when creating the S3 bucket.
+- **S3_BUCKET (required)**. The name you used when creating the S3 bucket.
 
 - **S3_BUCKET_REGION (required)**. Pick the region you selected when setting up AmazonS3 <https://locomotive-v3.readme.io/docs/heroku#set-up-amazon-s3>.
 
@@ -32,7 +32,7 @@ Follow the steps and you will be up and running in no time!
 
 ## Problems?
 
-If you have problems, check the [official documentation](http://doc.locomotivecms.com/) or open an [issue](https://github.com/locomotivecms/engine/issues). If there is an issue in the process of deploying to heroku, then [open an issue here](https://github.com/locomotivecms/heroku-instant-deploy).
+If you have problems, check the [official documentation](https://locomotive-v3.readme.io/) or open an [issue](https://github.com/locomotivecms/engine/issues). If there is an issue in the process of deploying to heroku, then [open an issue here](https://github.com/locomotivecms/heroku-instant-deploy).
 
 ## License
 
