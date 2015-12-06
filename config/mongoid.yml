@@ -139,7 +139,7 @@ test:
 production:
   clients:
     default:
-      uri: <%= ENV['MONGOLAB_URI'] || ENV['MONGOHQ_URL'] %>
+      uri: <%= ENV['MONGOLAB_URI'] || ENV['MONGOHQ_URL'] || ENV['MONGO_URL'] %>
       options:
         read:
           mode: :primary
