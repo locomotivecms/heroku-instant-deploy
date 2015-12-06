@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/locomotivecms/engine.git
-  revision: bd15f0c0d2e39bdf46642d987959c2d5fba4c27f
-  ref: bd15f0c0d2e39bdf46642
+  revision: 8b8cac91f8d95231740ea3754cd2d618a0c1d6b6
+  ref: 8b8cac9
   specs:
-    locomotivecms (3.0.0.rc3)
+    locomotivecms (3.0.0.rc5)
       actionmailer-with-request (~> 0.4.0)
       autoprefixer-rails (~> 6.0.3)
       bazaar (~> 0.0.2)
@@ -24,7 +24,7 @@ GIT
       jquery-rails (~> 4.0.3)
       jquery-ui-rails (~> 5.0.3)
       kaminari (~> 0.16.3)
-      locomotivecms_steam (~> 1.0.0.rc4)
+      locomotivecms_steam (~> 1.0.0.rc8)
       mime-types (~> 2.5)
       mimetype-fu (~> 0.1.2)
       mongo_session_store-rails4 (~> 6.0.0)
@@ -92,12 +92,12 @@ GEM
     autoprefixer-rails (6.0.3)
       execjs
       json
-    aws-sdk (2.2.0)
-      aws-sdk-resources (= 2.2.0)
-    aws-sdk-core (2.2.0)
+    aws-sdk (2.2.4)
+      aws-sdk-resources (= 2.2.4)
+    aws-sdk-core (2.2.4)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.2.0)
-      aws-sdk-core (= 2.2.0)
+    aws-sdk-resources (2.2.4)
+      aws-sdk-core (= 2.2.4)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
@@ -114,7 +114,7 @@ GEM
       sass (>= 3.3.0)
     bson (3.2.6)
     builder (3.2.2)
-    byebug (8.2.0)
+    byebug (8.2.1)
     carrierwave (0.10.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
@@ -245,7 +245,7 @@ GEM
       attr_extras (~> 4.4.0)
       colorize
       stringex (~> 2.5.2)
-    locomotivecms_steam (1.0.0.rc4)
+    locomotivecms_steam (1.0.0.rc8)
       RedCloth (~> 4.2.9)
       chronic (~> 0.10.2)
       coffee-script (~> 2.4.1)
@@ -261,6 +261,7 @@ GEM
       moneta (~> 0.8.0)
       mongo (~> 2.1.2)
       morphine (~> 0.1.1)
+      nokogiri (~> 1.6.6.4)
       origin (~> 2.1.1)
       rack-cache (~> 1.2)
       rack-rewrite (~> 1.5.1)
@@ -276,7 +277,7 @@ GEM
     mime-types (2.6.2)
     mimetype-fu (0.1.2)
     mini_portile (0.6.2)
-    minitest (5.8.2)
+    minitest (5.8.3)
     moneta (0.8.0)
     monetize (1.1.0)
       money (~> 6.5.0)
@@ -301,7 +302,7 @@ GEM
     multi_xml (0.5.5)
     net-ssh (2.10.1.rc2)
     netrc (0.11.0)
-    nokogiri (1.6.6.3)
+    nokogiri (1.6.6.4)
       mini_portile (~> 0.6.0)
     nokogumbo (1.4.1)
       nokogiri
@@ -344,7 +345,7 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.2)
       loofah (~> 2.0)
-    rails-i18n (4.0.6)
+    rails-i18n (4.0.7)
       i18n (~> 0.7)
       railties (~> 4.0)
     rails_12factor (0.0.3)
@@ -390,7 +391,7 @@ GEM
     slim (3.0.6)
       temple (~> 0.7.3)
       tilt (>= 1.3.3, < 2.1)
-    spring (1.4.2)
+    spring (1.5.0)
     sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)
