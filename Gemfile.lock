@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/locomotivecms/engine.git
-  revision: 8b8cac91f8d95231740ea3754cd2d618a0c1d6b6
-  ref: 8b8cac9
+  revision: baf710b2295d9cf8bf514729b996d76a4418c213
+  ref: baf710b
   specs:
-    locomotivecms (3.0.0.rc5)
+    locomotivecms (3.0.0.rc6)
       actionmailer-with-request (~> 0.4.0)
       autoprefixer-rails (~> 6.0.3)
       bazaar (~> 0.0.2)
@@ -24,7 +24,7 @@ GIT
       jquery-rails (~> 4.0.3)
       jquery-ui-rails (~> 5.0.3)
       kaminari (~> 0.16.3)
-      locomotivecms_steam (~> 1.0.0.rc8)
+      locomotivecms_steam (~> 1.0.0.rc9)
       mime-types (~> 2.5)
       mimetype-fu (~> 0.1.2)
       mongo_session_store-rails4 (~> 6.0.0)
@@ -86,7 +86,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.8)
+    addressable (2.4.0)
     arel (6.0.3)
     attr_extras (4.4.0)
     autoprefixer-rails (6.0.3)
@@ -167,7 +167,7 @@ GEM
     debug_inspector (0.0.2)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
-    devise (3.5.2)
+    devise (3.5.3)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
@@ -245,7 +245,7 @@ GEM
       attr_extras (~> 4.4.0)
       colorize
       stringex (~> 2.5.2)
-    locomotivecms_steam (1.0.0.rc8)
+    locomotivecms_steam (1.0.0.rc9)
       RedCloth (~> 4.2.9)
       chronic (~> 0.10.2)
       coffee-script (~> 2.4.1)
@@ -304,7 +304,7 @@ GEM
     netrc (0.11.0)
     nokogiri (1.6.6.4)
       mini_portile (~> 0.6.0)
-    nokogumbo (1.4.1)
+    nokogumbo (1.4.6)
       nokogiri
     nprogress-rails (0.1.6.7)
     origin (2.1.1)
@@ -365,10 +365,10 @@ GEM
     rdoc (4.2.0)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
-    sanitize (4.0.0)
+    sanitize (4.0.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.4.4)
-      nokogumbo (= 1.4.1)
+      nokogumbo (~> 1.4.1)
     sass (3.4.19)
     sass-rails (5.0.1)
       railties (>= 4.0.0, < 5.0)
@@ -424,7 +424,7 @@ GEM
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
-    warden (1.2.3)
+    warden (1.2.4)
       rack (>= 1.0)
     web-console (2.2.1)
       activemodel (>= 4.0)
