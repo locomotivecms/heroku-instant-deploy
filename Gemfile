@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'unicorn'
 
 # Use Puma as the app server
-gem 'puma'
+gem 'puma', '~> 2.15.3'
 
 # Upload files to AWS S3
 gem 'carrierwave-aws'
@@ -41,6 +41,8 @@ gem 'locomotivecms', github: 'locomotivecms/engine', ref: 'dbe596c'
 gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '939f6f6'
 
 gem 'puma_worker_killer'
+
+gem 'derailed', group: :development
 
 # GITHUB
 # gem 'locomotivecms', github: 'locomotivecms/engine', branch: 'master'

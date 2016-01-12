@@ -7,8 +7,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/assets/font-awesome/fontawesome-webfont-c6145e8d45b307f69e06237b028ee450.eot?v=4.5.0");
-  src: url("/assets/font-awesome/fontawesome-webfont-c6145e8d45b307f69e06237b028ee450.eot?v=4.5.0#iefix") format("embedded-opentype"), url("/assets/font-awesome/fontawesome-webfont-b872926be5285920d081a4a8b8872f26.woff2?v=4.5.0") format("woff2"), url("/assets/font-awesome/fontawesome-webfont-241265f190d3a79827f01b83e80dafd9.woff?v=4.5.0") format("woff"), url("/assets/font-awesome/fontawesome-webfont-b1ff6ae568565f90bcd2813fb96c3a07.ttf?v=4.5.0") format("truetype"), url("/assets/font-awesome/fontawesome-webfont-9645cb4b9b93335bbd184c19dbd63e11.svg?v=4.5.0#fontawesomeregular") format("svg");
+  src: url("/assets/font-awesome/fontawesome-webfont-e219ece8f4d3e4ac455ef31cd3a7c7b5057ea68a109937fc26b03c6e99ee9322.eot?v=4.5.0");
+  src: url("/assets/font-awesome/fontawesome-webfont-e219ece8f4d3e4ac455ef31cd3a7c7b5057ea68a109937fc26b03c6e99ee9322.eot?v=4.5.0#iefix") format("embedded-opentype"), url("/assets/font-awesome/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0") format("woff2"), url("/assets/font-awesome/fontawesome-webfont-c812ddc9e475d3e65d68a6b3b589ce598a2a5babb7afc55477d59215c4a38a40.woff?v=4.5.0") format("woff"), url("/assets/font-awesome/fontawesome-webfont-7b5a4320fba0d4c8f79327645b4b9cc875a2ec617a557e849b813918eb733499.ttf?v=4.5.0") format("truetype"), url("/assets/font-awesome/fontawesome-webfont-d67041fe5d50eef9ef671643968f7ce6b130eaaaaa2ce4d496b18d0a33aeb87b.svg?v=4.5.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12120,112 +12120,20 @@ button.close {
   font-weight: 400;
   src: local("Muli"), url("//themes.googleusercontent.com/static/fonts/muli/v5/minRpKQdEvXRRS8oAbAtWvesZW2xOQ-xsNqO47m55DA.woff") format("woff");
 }
-/* line 4, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/base/_typography.scss */
+/* line 4, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-dbe596c6245e/app/assets/stylesheets/locomotive/base/_typography.scss */
 h1 {
   font-family: "Muli", sans-serif;
 }
 
-/* line 4, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/layouts/_error.scss */
-html {
-  background-color: #5488cc;
+/* line 11, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-dbe596c6245e/app/assets/stylesheets/locomotive/live_editing_error.scss */
+.container {
+  padding-top: 100px;
 }
-
-/* line 8, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/layouts/_error.scss */
-body,
-html {
-  height: 100%;
+/* line 13, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-dbe596c6245e/app/assets/stylesheets/locomotive/live_editing_error.scss */
+.container .alert {
+  margin-top: 50px;
 }
-
-/* line 13, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/layouts/_error.scss */
-body {
-  background: -webkit-linear-gradient(top, #54b9cd 60px, #54b9cd 20%, #5488cc);
-  background: linear-gradient(to bottom, #54b9cd 60px, #54b9cd 20%, #5488cc);
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding-bottom: 20px;
-}
-
-/* line 18, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/layouts/_error.scss */
-.wrapper {
-  height: 100%;
-}
-/* line 20, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/layouts/_error.scss */
-.wrapper .main {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin-left: -15px;
-  margin-right: -15px;
-  right: 30px;
-  left: 30px;
-}
-/* line 14, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.wrapper .main:before, .wrapper .main:after {
-  content: " ";
-  display: table;
-}
-/* line 19, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.wrapper .main:after {
-  clear: both;
-}
-/* line 25, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/layouts/_error.scss */
-.wrapper .main .content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100%;
-}
-
-/* line 3, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/components/_error.scss */
-h1 {
-  text-transform: capitalize;
-  font-size: 16px;
-  font-family: "Muli", sans-serif;
-}
-/* line 8, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/components/_error.scss */
-h1 img {
-  position: relative;
-  top: -2px;
-  width: 16px;
-}
-/* line 14, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/components/_error.scss */
-h1 small {
-  display: block;
-  width: 100%;
-  text-align: center;
-  text-transform: lowercase;
-  color: #a2e4f1;
-  font-size: 14px;
-  font-weight: 200;
-  margin-top: 10px;
-}
-
-/* line 26, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/components/_error.scss */
-h2 {
-  padding: 30px 0px;
-  width: 600px;
-  line-height: 40px;
-  text-justify: center;
-}
-
-/* line 34, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-a122b8c9d8c3/app/assets/stylesheets/locomotive/components/_error.scss */
-p.next a {
-  color: #fff;
+/* line 15, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-dbe596c6245e/app/assets/stylesheets/locomotive/live_editing_error.scss */
+.container .alert h4 {
+  font-weight: bold;
 }

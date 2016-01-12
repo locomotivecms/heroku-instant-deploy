@@ -3141,7 +3141,7 @@
         toolbar: "wysihtml5-toolbar-" + ($textarea.attr('id')),
         useLineBreaks: false,
         parserRules: wysihtml5ParserRules,
-        stylesheets: ['/assets/locomotive/wysihtml5_editor-af11992527d40b6ea5a5bec582c0b756.css']
+        stylesheets: ['/assets/locomotive/wysihtml5_editor-7a4799cb5d05baea0a4194c757a045b1d289b5cda731f226c20c14242cf10d5b.css']
       });
       this.editor.on('load', this.register_keydown_event);
       this.editor.on('change', this.on_content_change);
