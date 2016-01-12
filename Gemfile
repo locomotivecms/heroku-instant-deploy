@@ -40,6 +40,8 @@ gem 'carrierwave-aws'
 gem 'locomotivecms', github: 'locomotivecms/engine', ref: 'dbe596c'
 gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '939f6f6'
 
+gem 'puma_worker_killer'
+
 # GITHUB
 # gem 'locomotivecms', github: 'locomotivecms/engine', branch: 'master'
 # gem 'locomotivecms_steam', github: 'locomotivecms/steam', branch: 'master'
