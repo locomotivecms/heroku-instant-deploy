@@ -17,6 +17,9 @@ Locomotive.configure do |config|
   # available locales suggested to "localize" a site. You will have to pick up at least one among that list.
   # config.site_locales = %w{en de fr pl pt pt-BR it nl nb es ru ja cs bg sk}
 
+  # locales allowed for the back-office UI
+  config.locales = [:en, :nl, :el]
+
   # tell if logs are enabled. Useful for debug purpose.
   config.enable_logs = true
 
