@@ -37,8 +37,8 @@ gem 'puma', '~> 2.15.3'
 gem 'carrierwave-aws'
 
 # DEV
-gem 'locomotivecms', github: 'locomotivecms/engine', ref: '4770f83b7f3f7'
-gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '939f6f6'
+gem 'locomotivecms', github: 'locomotivecms/engine', ref: '091acc0'
+# gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '939f6f6'
 
 gem 'puma_worker_killer'
 
