@@ -36,21 +36,20 @@ gem 'puma', '~> 2.15.3'
 # Upload files to AWS S3
 gem 'carrierwave-aws'
 
-# DEV
-gem 'locomotivecms', '~> 3.1.1'
-# gem 'locomotivecms', github: 'locomotivecms/engine', ref: '97419e1'
-# gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '60732f3'
-
 gem 'puma_worker_killer'
 
 gem 'derailed', group: :development
+
+# DEV
+gem 'locomotivecms', github: 'locomotivecms/engine', ref: 'af10d4f'
+# gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '60732f3'
 
 # GITHUB
 # gem 'locomotivecms', github: 'locomotivecms/engine', branch: 'master'
 # gem 'locomotivecms_steam', github: 'locomotivecms/steam', branch: 'master'
 
 # STABLE
-# gem 'locomotivecms', '~> 3.0.0.rc1'
+# gem 'locomotivecms', '~> 3.1.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

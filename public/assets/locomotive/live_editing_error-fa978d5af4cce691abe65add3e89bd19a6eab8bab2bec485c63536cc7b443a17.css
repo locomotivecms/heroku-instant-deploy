@@ -4193,7 +4193,7 @@ address {
   line-height: 1.42857143;
 }
 
-/* line 7, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-3.1.1/app/assets/stylesheets/locomotive/new/_type.scss */
+/* line 7, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/new/_type.scss */
 h1,
 h2,
 h3,
@@ -4203,7 +4203,7 @@ h6 {
   margin: 0;
 }
 
-/* line 16, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-3.1.1/app/assets/stylesheets/locomotive/new/_type.scss */
+/* line 16, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/new/_type.scss */
 code {
   display: block;
   overflow: auto;
@@ -10675,15 +10675,15 @@ button.close {
     display: none !important;
   }
 }
-/* line 55, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-3.1.1/app/assets/stylesheets/locomotive/live_editing_error.scss */
+/* line 55, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/live_editing_error.scss */
 .container {
   padding-top: 100px;
 }
-/* line 57, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-3.1.1/app/assets/stylesheets/locomotive/live_editing_error.scss */
+/* line 57, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/live_editing_error.scss */
 .container .alert {
   margin-top: 50px;
 }
-/* line 59, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/locomotivecms-3.1.1/app/assets/stylesheets/locomotive/live_editing_error.scss */
+/* line 59, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/live_editing_error.scss */
 .container .alert h4 {
   font-weight: bold;
 }

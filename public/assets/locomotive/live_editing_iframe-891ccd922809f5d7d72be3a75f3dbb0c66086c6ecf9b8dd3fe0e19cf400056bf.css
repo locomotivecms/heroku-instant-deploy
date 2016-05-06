@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 22, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-97419e1b2ae3/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+/* line 22, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
 #locomotive-highlighter-bar, #locomotive-highlighter-actions {
   display: block;
   position: absolute;
@@ -14,14 +14,14 @@
   z-index: 10000;
 }
 
-/* line 30, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-97419e1b2ae3/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+/* line 30, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
 #locomotive-highlighter-bar {
   background-color: yellow;
   width: 5px;
   min-height: 10px;
 }
 
-/* line 37, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-97419e1b2ae3/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+/* line 37, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
 #locomotive-highlighter-actions > a {
   background: #1c77c3;
   background-image: none;
@@ -44,12 +44,12 @@
   vertical-align: middle;
   white-space: nowrap;
 }
-/* line 59, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-97419e1b2ae3/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+/* line 59, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
 #locomotive-highlighter-actions > a:hover {
   background-color: #165c96;
   border-color: #0e3b61;
 }
-/* line 64, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-97419e1b2ae3/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+/* line 64, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
 #locomotive-highlighter-actions > a i.locomotive-fa {
   display: inline-block;
   font: normal normal normal 14px/1 LocomotiveFontAwesome;
@@ -59,7 +59,7 @@
   -moz-osx-font-smoothing: grayscale;
   margin-right: 5px;
 }
-/* line 74, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-97419e1b2ae3/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
+/* line 74, /Users/didier/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/engine-af10d4f539c8/app/assets/stylesheets/locomotive/live_editing_iframe.scss */
 #locomotive-highlighter-actions > a i.locomotive-fa.locomotive-fa-pencil:before {
   content: "\f040";
 }
