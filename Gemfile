@@ -9,7 +9,7 @@ gem 'rails', '~> 4.2.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '~> 4.1.3'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -40,16 +40,8 @@ gem 'puma_worker_killer'
 
 gem 'derailed', group: :development
 
-# DEV
-gem 'locomotivecms', github: 'locomotivecms/engine', ref: 'af10d4f'
-# gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '60732f3'
-
-# GITHUB
-# gem 'locomotivecms', github: 'locomotivecms/engine', branch: 'master'
-# gem 'locomotivecms_steam', github: 'locomotivecms/steam', branch: 'master'
-
-# STABLE
-# gem 'locomotivecms', '~> 3.1.1'
+gem 'locomotivecms', '3.3.0'
+gem 'locomotivecms_steam', '~> 1.3.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -68,4 +60,4 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'platform-api', '~> 0.3.0'
+gem 'platform-api', '~> 0.7.0'
