@@ -60,4 +60,4 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'platform-api', '~> 0.3.0'
+gem 'platform-api', '~> 0.8.0'
