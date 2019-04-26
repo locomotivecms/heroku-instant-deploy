@@ -1,6 +1,6 @@
 {
-  "name": "Locomotive on Heroku",
-  "description": "Locomotive is the most innovative Ruby on Rails site publishing platform. It is used by thousand of developers in the world.",
+  "name": "LocomotiveCMS on Heroku",
+  "description": "LocomotiveCMS is the most innovative Ruby on Rails site publishing platform. It is used by thousand of developers in the world.",
   "logo": "https://avatars0.githubusercontent.com/u/340986",
   "repository": "https://github.com/locomotivecms/engine",
   "success_url": "/",

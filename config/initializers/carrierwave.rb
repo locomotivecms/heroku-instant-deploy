@@ -9,11 +9,9 @@ CarrierWave.configure do |config|
     config.root = File.join(Rails.root, 'public')
 
   when :production
-    # the following configuration works for Amazon S3
-    #
     # WARNING: add the "carrierwave-aws" gem in your Rails app Gemfile.
     # More information here: https://github.com/sorentwo/carrierwave-aws
-    #
+
     config.storage          = :aws
     config.aws_bucket       = ENV['S3_BUCKET']
     config.aws_acl          = 'public-read'

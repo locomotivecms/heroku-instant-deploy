@@ -1,6 +1,6 @@
-# [Locomotive](https://github.com/locomotivecms/engine) on [Heroku](http://heroku.com)
+# [LocomotiveCMS](https://github.com/locomotivecms/engine) on [Heroku](http://heroku.com)
 
-Locomotive is designed to save your time and help you focus on what matters: front-end technology, standard development process and no learning time for your client. Visit the project's website at <http://locomotive.works/>, or read the docs on <https://locomotive-v3.readme.io/>.
+LocomotiveCMS is designed to save your time and help you focus on what matters: front-end technology, standard development process and no learning time for your client. Visit the project's website at <https://www.locomotivecms.com/>, or read the docs on <https://doc.locomotivecms.com/>.
 
 ## Deploying on Heroku
 
@@ -32,8 +32,8 @@ Follow the steps and you will be up and running in no time!
 
 ## Problems?
 
-If you have problems, check the [official documentation](https://locomotive-v3.readme.io/) or open an [issue](https://github.com/locomotivecms/engine/issues). If there is an issue in the process of deploying to heroku, then [open an issue here](https://github.com/locomotivecms/heroku-instant-deploy).
+If you have problems, check the [official documentation](https://doc.locomotivecms.com/) or open an [issue](https://github.com/locomotivecms/engine/issues). If there is an issue in the process of deploying to heroku, then [open an issue here](https://github.com/locomotivecms/heroku-instant-deploy).
 
 ## License
 
-Copyright (c) 2015 NoCoffee, released under the [MIT license](./LICENSE)
+Copyright (c) 2019 NoCoffee, released under the [MIT license](./LICENSE)
