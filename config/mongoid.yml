@@ -72,7 +72,7 @@ test:
 production:
   clients:
     default:
-      uri: <%%= ENV['MONGODB_URI'] || ENV['MONGO_URL'] %>
+      uri: <%= ENV['MONGODB_URI'] || ENV['MONGO_URL'] %>
       options:
         # consistency: :strong
         # identity_map_enabled: true
